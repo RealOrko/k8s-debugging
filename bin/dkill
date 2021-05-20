@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+CONTAINER_ID=$(docker ps | grep docker-debugging | awk '{print $1}')
+
+docker kill $CONTAINER_ID
+
+docker ps

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+docker build -t docker-debugging $PWD/
+docker tag docker-debugging realorko/docker-debugging:1.0.0
+docker push realorko/docker-debugging:1.0.0
+docker tag docker-debugging realorko/docker-debugging:latest
+docker push realorko/docker-debugging:latest
+docker image ls 
