@@ -16,6 +16,14 @@ Please install the following:
 
 Run `direnv allow` in the checkout directory. 
 
+## Cloning the repo
+
+To clone and activate the repo, please run the following:
+
+```
+git clone git@github.com:RealOrko/k8s-debugging.git && cd k8s-debugging && direnv allow
+```
+
 ## Up and running
 
   - `kdeploy`: To deploy the diagnostic container in your k8s cluster. 
