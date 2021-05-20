@@ -33,4 +33,4 @@ spec:
         - containerPort: 8080
 EOF
 
-kubectl wait --for=condition=available --timeout=600s deployment/debug -n infra-debugging
+kubectl wait --for=condition=available --timeout=600s deployment/debug -n devops
