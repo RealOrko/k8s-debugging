@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
-CONTAINER_ID=$(docker ps | grep docker-debugging | awk '{print $1}')
-
-docker exec -it $CONTAINER_ID /bin/bash
+docker tag docker-debugging realorko/docker-debugging:1.0.0
+docker push realorko/docker-debugging:1.0.0
+docker tag docker-debugging realorko/docker-debugging:latest
+docker push realorko/docker-debugging:latest
