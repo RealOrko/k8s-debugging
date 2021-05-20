@@ -18,8 +18,8 @@ Run `direnv allow` in the checkout directory.
 
 ## Up and running
 
-`kdeploy`: To deploy the diagnostic container in your k8s cluster. 
-`kdestroy`: To destroy the diagnostic container in your k8s cluster. 
+  - `kdeploy`: To deploy the diagnostic container in your k8s cluster. 
+  - `kdestroy`: To destroy the diagnostic container in your k8s cluster. 
 
 
 ## SSH into the container
