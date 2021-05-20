@@ -27,3 +27,13 @@ Run `direnv allow` in the checkout directory.
 To SSH into the container to start running diagnostics please run: 
 
 `kshell`: This will give you a bash shell into the container. 
+
+## What's available
+
+  - [dnsutils](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L7)
+  - [netcat](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L8)
+  - [traceroute](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L9)
+  - [curl](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L10)
+  - [wget](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L11)
+  - [unzip](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L12)
+  - [lynx](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L13)
