@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# For killing the current running docker build using 'dbuild && drun'
+
 CONTAINER_ID=$(docker ps | grep docker-debugging | awk '{print $1}')
 
 docker kill $CONTAINER_ID

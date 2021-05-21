@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# For running the latest docker build after 'dbuild'
+
 docker run -d docker-debugging
 
 docker ps

@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# For rebuilding the container locally using docker
+
 docker image prune -a -f
 docker build -t docker-debugging $PWD/
+docker tag docker-debugging realorko/docker-debugging:latest
+
 docker image ls 

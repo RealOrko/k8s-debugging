@@ -19,6 +19,7 @@ RUN apt update \
   && apt install unzip -y \
   && apt install nano -y \
   && apt install busybox-static -y \
+  && apt install psmisc -y \
 
   # Direnv
   && apt install direnv -y \
@@ -34,6 +35,8 @@ RUN apt update \
   && curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" \
   && unzip awscliv2.zip \
   && ./aws/install \
+  && rm awscliv2.zip \
+  && rm -rf /aws \
 
   # Clean up
   && apt autoremove -y

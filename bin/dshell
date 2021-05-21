@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# For gaining a shell into the latest 'drun'
+
 CONTAINER_ID=$(docker ps | grep docker-debugging | awk '{print $1}')
 
 docker exec -it $CONTAINER_ID /bin/bash --rcfile /.bashrc
