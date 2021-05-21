@@ -34,7 +34,7 @@ git clone git@github.com:RealOrko/k8s-debugging.git && cd k8s-debugging && diren
 
 To SSH into the pod for running diagnostics please run: 
 
-`kshell`: This will give you a bash shell into the container. 
+  - `kshell`: This will give you a bash shell into the container. 
 
 ## What's available
 
