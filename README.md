@@ -38,10 +38,13 @@ To SSH into the pod fpr running diagnostics please run:
 
 ## What's available
 
-  - [dnsutils](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L7)
-  - [netcat](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L8)
-  - [traceroute](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L9)
-  - [curl](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L10)
-  - [wget](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L11)
-  - [unzip](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L12)
-  - [lynx](https://github.com/RealOrko/k8s-debugging/blob/3cc3e81bdd8768664117ec5e6e07db9757275f66/Dockerfile#L13)
+  - [dnsutils](https://github.com/RealOrko/k8s-debugging/blob/13e10e09702937aa6b8df38b15a16f3881a0ff4b/Dockerfile#L14)
+  - [netcat](https://github.com/RealOrko/k8s-debugging/blob/13e10e09702937aa6b8df38b15a16f3881a0ff4b/Dockerfile#L15)
+  - [traceroute](https://github.com/RealOrko/k8s-debugging/blob/13e10e09702937aa6b8df38b15a16f3881a0ff4b/Dockerfile#L16)
+  - [curl](https://github.com/RealOrko/k8s-debugging/blob/13e10e09702937aa6b8df38b15a16f3881a0ff4b/Dockerfile#L17)
+  - [wget](https://github.com/RealOrko/k8s-debugging/blob/13e10e09702937aa6b8df38b15a16f3881a0ff4b/Dockerfile#L18)
+  - [unzip](https://github.com/RealOrko/k8s-debugging/blob/13e10e09702937aa6b8df38b15a16f3881a0ff4b/Dockerfile#L19)
+  - [nano](https://github.com/RealOrko/k8s-debugging/blob/13e10e09702937aa6b8df38b15a16f3881a0ff4b/Dockerfile#L20)
+  - [busybox](https://github.com/RealOrko/k8s-debugging/blob/13e10e09702937aa6b8df38b15a16f3881a0ff4b/Dockerfile#L21)
+  - [psmisc](https://github.com/RealOrko/k8s-debugging/blob/13e10e09702937aa6b8df38b15a16f3881a0ff4b/Dockerfile#L22)
+  - [lynx](https://github.com/RealOrko/k8s-debugging/blob/13e10e09702937aa6b8df38b15a16f3881a0ff4b/Dockerfile#L29-L32)
