@@ -30,9 +30,9 @@ git clone git@github.com:RealOrko/k8s-debugging.git && cd k8s-debugging && diren
   - `kdestroy`: To destroy the diagnostic container in your k8s cluster. 
 
 
-## SSH into the container
+## SSH into pod
 
-To SSH into the container to start running diagnostics please run: 
+To SSH into the pod fpr running diagnostics please run: 
 
 `kshell`: This will give you a bash shell into the container. 
 
